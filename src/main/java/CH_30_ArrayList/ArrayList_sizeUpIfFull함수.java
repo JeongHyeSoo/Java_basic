@@ -2,7 +2,7 @@ package CH_30_ArrayList;
 // 문제 : 배열의 단점을 보완한 ArrayList 라는 클래스를 만들어주세요. 아래와 같이 출력되도록 해주세요. add 함수에서 배열의 크기가 자동으로 늘어나도록 해주세요.
 public class ArrayList_sizeUpIfFull함수{
 
-    public static void main(String[] args) {
+    private static void main(String[] args) {
         ArrayList ar = new ArrayList();
         ar.add(100);
         ar.add(200);
@@ -27,7 +27,7 @@ public class ArrayList_sizeUpIfFull함수{
     }
 }
 
-class ArrayList {
+    private class ArrayList {
     int[] datas;
     int lastIndex = -1;
 

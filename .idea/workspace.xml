@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="327e7f40-b2d2-461f-aeb6-63e7cde6afa1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CH_30_ArrayList/ArrayList_add함수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CH_30_ArrayList/ArrayList_add함수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CH_30_ArrayList/ArrayList_sizeUpIfFull함수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CH_30_ArrayList/ArrayList_sizeUpIfFull함수.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659711659231</updated>
-      <workItem from="1659711661280" duration="4570000" />
+      <workItem from="1659711661280" duration="7115000" />
     </task>
     <servers />
   </component>
