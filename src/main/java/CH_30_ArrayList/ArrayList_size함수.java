@@ -18,7 +18,7 @@ public class ArrayList_size함수{
     }
 }
 
-class ArrayList {
+private class ArrayList {
     int[] datas;
     int lastIndex = -1;
 

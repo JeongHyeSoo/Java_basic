@@ -20,7 +20,7 @@ public class ArrayList_add함수 {	public static void main(String[] args) {
 }
 }
 
-class ArrayList {
+private class ArrayList {
     int[] datas;
     int lastIndex;
 

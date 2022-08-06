@@ -12,7 +12,7 @@ public class ArrayList {
         ar.add(200);
         ar.add(300);
     }
-    class ArrayList{
+    private class ArrayList{
         void add(int data){
 
         }
