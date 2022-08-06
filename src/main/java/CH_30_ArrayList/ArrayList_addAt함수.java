@@ -38,6 +38,24 @@ class ArrayList {
     }
 
     void add(int data) {
+        extendDataSizeIfNeed();
+
+        lastIndex++;
+
+        datas[lastIndex] = data;
+    }
+
+    void add(int data, int index) {
+        extendDataSizeIfNeed();
+
+        for(int i=datas.length;i>=index;i--){
+            datas[i+1]=datas[i];
+        }
+        datas[index]=data;
+        lastIndex++;
+    }
+
+    void extendDataSizeIfNeed(){
         if ( lastIndex + 1 >= datas.length ) {
             // 확장공사
             // 기존버스 버리고 새 버스로 연결!!
@@ -53,10 +71,6 @@ class ArrayList {
 
             datas = newArr;
         }
-
-        lastIndex++;
-
-        datas[lastIndex] = data;
     }
 
     int get(int index) {

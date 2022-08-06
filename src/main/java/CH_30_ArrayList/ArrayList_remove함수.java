@@ -1,6 +1,6 @@
 package CH_30_ArrayList;
 
-public class ArrayList_remove함수
+public class ArrayList_remove함수{
 // 문제 : 아래 코드가 작동하도록 해주세요.
 
     public static void main(String[] args) {
